@@ -75,7 +75,7 @@ export default function Dock() {
         className="
           flex
           h-18
-          w-[760px]
+          w-190
           items-center
           justify-evenly
           rounded-full
