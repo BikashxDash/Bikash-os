@@ -1,13 +1,17 @@
 "use client";
 
-import Image from "next/image";
 import { TypeAnimation } from "react-type-animation";
-import StarField from "@/components/background/StarField";
+import NebulaBackground from "@/components/background/NebulaBackground";
+import Dock from "@/components/navbar/Dock";
+import ProfileCard from "../profile/ProfileCard";
+import Navbar from "../navbar/Navbar";
+
 
 export default function Hero() {
   return (
     <>
-      <StarField />
+      <Dock />
+      <NebulaBackground />
 
       <main className="relative z-10 flex min-h-screen items-center justify-center px-6">
         <div className="mx-auto flex w-full max-w-7xl flex-col-reverse items-center justify-between gap-16 lg:flex-row">
@@ -54,18 +58,8 @@ export default function Hero() {
             </div>
           </div>
 
-          <div className="relative">
-            <div className="absolute inset-0 rounded-full bg-blue-500/20 blur-3xl" />
+          <ProfileCard />
 
-            <Image
-              src="/images/profile.png"
-              alt="Profile"
-              width={360}
-              height={360}
-              priority
-              className="relative rounded-full border border-zinc-700 object-cover"
-            />
-          </div>
         </div>
       </main>
     </>
