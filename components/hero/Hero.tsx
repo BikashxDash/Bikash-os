@@ -4,6 +4,7 @@ import { TypeAnimation } from "react-type-animation";
 import NebulaBackground from "@/components/background/NebulaBackground";
 import Dock from "@/components/navbar/Dock";
 import ProfileCard from "../profile/ProfileCard";
+import Mission from "../mission/Mission";
 
 
 export default function Hero() {
