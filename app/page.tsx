@@ -4,6 +4,7 @@ import { useState } from "react";
 import BootScreen from "@/components/boot/BootScreen";
 import Hero from "@/components/hero/Hero";
 import Mission from "@/components/mission/Mission";
+import Projects from "@/components/projects/Projects";
 
 export default function Home() {
   const [booted, setBooted] = useState(false);
@@ -15,5 +16,6 @@ export default function Home() {
   <>
   <Hero />
   <Mission />
+  <Projects />
   </>
 }
