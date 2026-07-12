@@ -5,6 +5,7 @@ import BootScreen from "@/components/boot/BootScreen";
 import Hero from "@/components/hero/Hero";
 import Mission from "@/components/mission/Mission";
 import Projects from "@/components/projects/Projects";
+import Lab from "@/components/lab/Lab";
 
 export default function Home() {
   const [booted, setBooted] = useState(false);
@@ -13,9 +14,12 @@ export default function Home() {
     return <BootScreen onComplete={() => setBooted(true)} />;
   }
 
+  return(
   <>
   <Hero />
   <Mission />
   <Projects />
+  <Lab />
   </>
+  );
 }

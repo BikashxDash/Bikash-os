@@ -26,8 +26,9 @@ function Nebula() {
 
 export default function NebulaBackground() {
   return (
-    <div className="fixed inset-0 z-0">
-      <Canvas camera={{ position: [0, 0, 5], fov: 60 }}>
+    <div className="absolute inset-0 z-0">
+      <Canvas camera={{ position: [0, 0, 5], fov: 60 }}
+              style={{ position: "absolute", inset: 0 }}>
         <color attach="background" args={["#050505"]} />
 
         <ambientLight intensity={0.2} />

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Space_Grotesk, JetBrains_Mono } from "next/font/google";
 import "./globals.css";
+import NebulaBackground from "@/components/background/NebulaBackground";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -32,7 +33,8 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${spaceGrotesk.variable} ${jetbrainsMono.variable}`}
       >
-        {children}
+        <NebulaBackground />
+        <div className="relative z-10">{children}</div>
       </body>
     </html>
   );

@@ -1,7 +1,6 @@
 "use client";
 
 import { TypeAnimation } from "react-type-animation";
-import NebulaBackground from "@/components/background/NebulaBackground";
 import Dock from "@/components/navbar/Dock";
 import ProfileCard from "../profile/ProfileCard";
 import Mission from "../mission/Mission";
@@ -11,7 +10,6 @@ export default function Hero() {
   return (
     <>
       <Dock />
-      <NebulaBackground />
 
       <main className="relative z-10 flex min-h-screen items-center justify-center px-6">
         <div className="mx-auto flex w-full max-w-7xl flex-col-reverse items-center justify-between gap-16 lg:flex-row">
