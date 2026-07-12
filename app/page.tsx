@@ -11,6 +11,7 @@ import Experience from "@/components/experience/Experience";
 import Education from "@/components/education/Education";
 import Certifications from "@/components/certifications/Certifications";
 import Contact from "@/components/contact/Contact";
+import OrbitAI from "@/components/orbit/OrbitAI";
 
 export default function Home() {
   const [booted, setBooted] = useState(false);
@@ -30,6 +31,7 @@ export default function Home() {
   <Education />
   <Certifications />
   <Contact />
+  <OrbitAI />
   </>
   );
 }

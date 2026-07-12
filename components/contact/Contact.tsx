@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Linkedin, Mail } from "lucide-react";
+import { GitHub, Linkedin, Mail } from "lucide-react";
 
 export default function Contact() {
   return (
@@ -40,7 +40,7 @@ export default function Contact() {
           target="_blank"
           className="rounded-3xl border border-zinc-800 bg-zinc-950/70 p-8"
         >
-          <Github className="mb-4 text-blue-500" size={28} />
+          <GitHub className="mb-4 text-blue-500" size={28} />
           <h3 className="text-xl font-semibold">GitHub</h3>
           <p className="mt-3 text-zinc-400">
             github.com/BikashxDash
