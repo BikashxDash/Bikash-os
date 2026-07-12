@@ -7,6 +7,7 @@ import Mission from "@/components/mission/Mission";
 import Projects from "@/components/projects/Projects";
 import Lab from "@/components/lab/Lab";
 import Timeline from "@/components/timeline/Timeline";
+import Experience from "@/components/experience/Experience";
 
 export default function Home() {
   const [booted, setBooted] = useState(false);
@@ -22,6 +23,7 @@ export default function Home() {
   <Projects />
   <Lab />
   <Timeline />
+  <Experience />
   </>
   );
 }
