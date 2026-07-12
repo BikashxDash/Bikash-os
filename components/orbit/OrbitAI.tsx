@@ -16,7 +16,7 @@ export default function OrbitAI() {
             animate={{ opacity: 1, y: 0, scale: 1 }}
             exit={{ opacity: 0, y: 30, scale: 0.9 }}
             transition={{ duration: 0.25 }}
-            className="fixed bottom-24 right-6 z-50 h-[500px] w-[360px] rounded-3xl border border-zinc-800 bg-black/80 backdrop-blur-2xl"
+            className="fixed bottom-24 right-6 z-50 h-125 w-90 rounded-3xl border border-zinc-800 bg-black/80 backdrop-blur-2xl"
           >
             <div className="flex items-center justify-between border-b border-zinc-800 p-5">
               <div>
@@ -31,7 +31,7 @@ export default function OrbitAI() {
               </button>
             </div>
 
-            <div className="flex h-[420px] items-center justify-center text-zinc-500">
+            <div className="flex h-105 items-center justify-center text-zinc-500">
               AI Chat Coming Soon...
             </div>
           </motion.div>
