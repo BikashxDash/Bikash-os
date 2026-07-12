@@ -9,6 +9,7 @@ import Lab from "@/components/lab/Lab";
 import Timeline from "@/components/timeline/Timeline";
 import Experience from "@/components/experience/Experience";
 import Education from "@/components/education/Education";
+import Certifications from "@/components/certifications/Certifications";
 
 export default function Home() {
   const [booted, setBooted] = useState(false);
@@ -26,6 +27,7 @@ export default function Home() {
   <Timeline />
   <Experience />
   <Education />
+  <Certifications />
   </>
   );
 }
